@@ -1,0 +1,67 @@
+node_modules
+apps/api/node_modules
+apps/web/node_modules
+apps/api/.turbo
+apps/web/.turbo
+
+# Nuxt dev/build outputs
+apps/web/.output
+apps/web/.nuxt
+apps/web/.nitro
+apps/web/.cache
+apps/web/dist
+
+# Node dependencies
+apps/web/node_modules
+
+# Logs
+apps/web/logs
+apps/web/*.log
+
+# Misc
+apps/web/.DS_Store
+apps/web/.fleet
+apps/web/.idea
+
+# Local env files
+apps/web/.env
+apps/web/.env.*
+apps/web/!.env.example
+
+# compiled output
+apps/api/dist
+apps/api/node_modules
+
+# Logs
+apps/api/logs
+apps/api/*.log
+apps/api/npm-debug.log*
+apps/api/pnpm-debug.log*
+apps/api/yarn-debug.log*
+apps/api/yarn-error.log*
+apps/api/lerna-debug.log*
+
+# OS
+apps/api/.DS_Store
+
+# Tests
+apps/api/coverage
+apps/api/.nyc_output
+
+# IDEs and editors
+apps/api/.idea
+apps/api/.project
+apps/api/.classpath
+apps/api/.c9/
+apps/api/*.launch
+apps/api/.settings/
+apps/api/*.sublime-workspace
+
+# IDE - VSCode
+apps/api/.vscode/*
+apps/api/!.vscode/settings.json
+apps/api/!.vscode/tasks.json
+apps/api/!.vscode/launch.json
+apps/api/!.vscode/extensions.json
+.vscode/
+.vscode/*
